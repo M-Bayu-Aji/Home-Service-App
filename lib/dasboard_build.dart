@@ -20,7 +20,6 @@ class _DasboardBuildState extends State<DasboardBuild> {
     {'name': 'Welder', 'icon': '⚒️'},
   ];
 
-  // sample providers data to map into cards
   final List<Map<String, dynamic>> providers = [
     {
       'name': 'Bayu Aji',
@@ -347,7 +346,6 @@ class _DasboardBuildState extends State<DasboardBuild> {
                 ),
               ],
             ),
-            // map providers into cards
             Column(
               children: providers.map((p) {
                 return Card(
